@@ -15,3 +15,20 @@ b.occupation = "Data Analyst"
 a.info()
 b.info()
 
+# Constructors
+
+class Person():
+    
+    def __init__(self, n, o):
+        # print("Hey I am a person")
+        self.name = n
+        self.occ = o
+    
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
+
+a = Person("Samiul", "Web Developer")
+b = Person("Sharika", "Data Analyst")
+
+a.info()
+b.info()
